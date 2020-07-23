@@ -9,8 +9,7 @@ while True:
         po.on()
         print('Pin', o, 'is active.')
         print('Press again to inactive')
-    else:
-            
+    else:         
         if o in a:
             po= Pin(o, Pin.OUT)
             po.off()
